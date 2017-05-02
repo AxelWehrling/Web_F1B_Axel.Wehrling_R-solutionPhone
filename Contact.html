@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html>
+	<head>
+        <meta charset="UTF-8" />
+        <title>La Boucherie Jambonus</title>
+		<link rel="stylesheet" type="text/css" href="StyleCSS.css">
+		<link rel="stylesheet" media="screen and (max-width: 1280px)" href="résolution_phone.css" type="text/css" />
+	</head>
+	
+	
+	<body>
+		
+		<header>
+			<img src="Image/Logo.png" alt="Logo"/>
+			<nav>
+				<ul>
+					<li class="element"><a href="IndexPrésentation.html"><strong>Présentation</strong><a/></li>
+					<li class="element"><a href="Partenaire.html"><strong>Partenaire</strong><a/></li>
+					<li class="element"><a href="Projet.html"><strong>Présentation des Projets</strong></a></li>
+					<li class="element"><a href="Contact.html"><strong>Contacts</strong></a></li>
+				</ul>
+			</nav>
+		</header>
+		
+		
+		
+		<section>
+			<h2> Contact: </h2>
+			<article>
+			
+			<fieldset>	
+					<legend>Sexe</legend> 			
+					<input type="radio" name="sexe" value="Homme" id="Homme" checked/> <label for="">Homme</label><br/>
+					<input type="radio" name="sexe" value="Femme" id="Femme"/> <label for="Femme">Femme</label><br/>
+			</fieldset>
+			
+				<fieldset>
+					<legend>Profil</legend> 
+					<p>
+					<label for="Nom">Nom</label>  <input type="text" name="nom" id="nom" autofocus/>
+					</br>
+					</br>
+					</br>
+					<label for="Prenom">Prénom</label> <input type="text" name="nom" id="prenom"/> 
+					</br>
+					</br>
+					<textarea name="des" placeholder="Description..." id="des" rows="10" cols="50"></textarea>
+					</br>
+					</br>
+					<label for="mail">Adresse-email</label>  <input type="email" name="mail" id="mail"/>
+					</br>
+					</br>
+					<label for="url">Url</label>  <input type="url" name="url" id="url"/>
+					</br>
+					</br>
+					<label for="telephone">Telephone</label>  <input type="tel" name="telephone" id="telephone"/>
+					</br>
+					</br>
+				</fieldset>
+				
+				<fieldset>
+					<legend>Choix Pays</legend> 
+					<label for="Pays">Votre pays</label></br>
+					<select name="pays" id="pays">
+						<optgroup label="Europe">
+						<option value="France">France</option>
+						<option value="Allemagne">Allemagne</option></optgroup>
+						<optgroup label="Autre">
+						<option value="UK">UK</option>
+						<option value="Canada">Canada</option></optgroup>
+					</select></br>
+				</fieldset>
+					
+					</br>
+					</br>
+				<div id="envoyer">
+					<input type="submit" name="envoyer" id="envoyer" value="Envoyer"/>
+				</div>
+			
+			
+			</article>
+		</section>
+		
+		<footer>
+			<img class="image" src="Image/Bande jambon.jpg" alt="Bande jambon"/>
+			<img class="image" src="Image/Bande viande.jpg" alt="Bande viande"/>
+		</footer>
+	</body>
+
+</html>

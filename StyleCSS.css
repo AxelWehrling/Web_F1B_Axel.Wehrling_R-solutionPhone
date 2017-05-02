@@ -1,0 +1,114 @@
+
+/*Général*/
+
+#envoyer{
+	margin-left:100px;
+}
+
+fieldset{
+	margin-left: 200px;
+	margin-top:20px;
+	width:30%;
+}
+
+.rungis{
+	margin-left:400px;
+	margin-top:50px;
+	height:150px;
+	width:150px;
+}
+
+
+body{
+	background-image:url("Image/Fond.jpg");
+}
+
+h2{
+	border: 5px inset;
+	border-color:white;
+	background-color:#ff0f20;
+	width:20%;
+	color:#efdf5e;
+	text-align:center;
+	
+}
+
+footer{
+	border:5px inset;
+	border-color:black;
+	margin-top:25px;
+	display: flex;
+	
+}
+
+.image{
+	width:50%;
+	height:150px;
+}
+
+section{
+	
+	border:5px inset;
+	border-color:black;
+	width:80%;
+	padding: 20px;
+	margin-top:30px;
+	margin-left:135px;
+	padding-bottom:50px;
+	padding-top:50px;
+	background-color:grey;
+	box-shadow: 10px 10px 10px;
+	
+}
+
+article{
+	
+	border:5px inset;
+	border-color:black;
+	width:80%;
+	padding: 40px;
+	background-color:white;
+	margin-left:90px;
+}	
+
+header{
+	
+	margin-top:75px;
+	margin-left:135px;
+	display: flex;
+	border:5px inset;
+	background-color:white;
+	border-color:black;
+	padding-top:5px;
+	padding-bottom:5px;
+	padding-left: 5px;
+	width:900px;
+	
+}
+
+li{
+	border: 5px inset;
+	border-top-color:red;
+	border-bottom-color: red;
+	border-left-color: red;
+	border-right-color: red;
+	padding-top: 20px;
+	padding-bottom:20px;
+	padding-left:10px;
+	padding-right:10px;
+	
+}
+
+
+
+ul{
+	margin-top:60px;
+}
+
+nav ul li{
+	
+	display:inline;
+	margin-left:30px;
+	
+}
+
